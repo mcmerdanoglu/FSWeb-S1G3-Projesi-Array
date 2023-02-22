@@ -58,13 +58,13 @@ Bir dizinin tam olarak 25 çeşit olduğunu onaylayın. İşleviniz şunları ka
 
 
 function dizi25Cesitmi(orijinalTatlar){
-  /*kod buraya*/ const kacCesit =orijinalTatlar.length; 
+  /*kod buraya*/ const kacCesit = orijinalTatlar.length; 
   if (kacCesit ===25) {
-    console.log("true")
+    console.log(true)
   }
-                else {console.log("false")}
-   return kacCesit;
-
+  else {console.log(false)}
+  
+   return;
 }
 
 
@@ -81,8 +81,10 @@ Aşağıdakileri yapmak için cesitEkle işlevini kullanın:
 */
 
 
-function cesitEkle(/*kod buraya*/){
+function cesitEkle(orijinalTatlar, yeniTad){
   /*kod buraya*/
+  orijinalTatlar.unshift(yeniTad);
+  return orijinalTatlar;
 }
 
 
