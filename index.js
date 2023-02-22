@@ -60,11 +60,10 @@ Bir dizinin tam olarak 25 çeşit olduğunu onaylayın. İşleviniz şunları ka
 function dizi25Cesitmi(orijinalTatlar){
   /*kod buraya*/ const kacCesit = orijinalTatlar.length; 
   if (kacCesit ===25) {
-    console.log(true)
+    return true;
   }
-  else {console.log(false)}
+  else {return false}
   
-   return;
 }
 
 
