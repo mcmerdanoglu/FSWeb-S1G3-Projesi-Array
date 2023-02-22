@@ -136,8 +136,9 @@ Aşağıdakileri yapmak için ismeGoreCesitCikar işlevini kullanın:
   İPUCU: Bunun için .splice() kullanabilirsiniz.
 */
 
-function ismeGoreCesitCikar(/*kod buraya*/){
-  /*kod buraya*/
+function ismeGoreCesitCikar(orijinalTatlar, lezzet){
+  /*kod buraya*/orijinalTatlar.splice(orijinalTatlar.indexOf(lezzet),1);
+  return orijinalTatlar;
 }
 
 
