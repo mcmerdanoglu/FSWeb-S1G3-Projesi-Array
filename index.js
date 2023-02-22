@@ -163,9 +163,13 @@ Aşağıdakileri yapmak için ismeGoreFiltrele işlevini kullanın:
 */
 
 
-function ismeGoreFiltrele(/*kod buraya*/){
-  /*kod buraya*/
-}
+function ismeGoreFiltrele(orijinalTatlar, tat){
+  /*kod buraya*/ const tatlar = [];
+  for (let i=0;i<orijinalTatlar.length;i++){
+  if(orijinalTatlar[i].includes(tat)) {tatlar.push(orijinalTatlar[i])
+  }
+ } return tatlar;
+} 
 
 
 
