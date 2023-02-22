@@ -100,10 +100,10 @@ Aşağıdakileri yapmak için sonCesitiKaldir işlevini kullanın:
 */
 
 
-function sonCesitiKaldir(/*kod buraya*/){
-  /*kod buraya*/
+function sonCesitiKaldir(orijinalTatlar){
+  /*kod buraya*/orijinalTatlar.pop();
+  return orijinalTatlar;  
 }
-
 
 /* Görev 5:
 Dizideki belirli bir indeksteki çeşniyi döndüren bir işlev yazın.
