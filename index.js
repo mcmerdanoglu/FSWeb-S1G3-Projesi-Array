@@ -57,8 +57,14 @@ Bir dizinin tam olarak 25 çeşit olduğunu onaylayın. İşleviniz şunları ka
 */
 
 
-function dizi25Cesitmi(/*kod buraya*/){
-  /*kod buraya*/
+function dizi25Cesitmi(orijinalTatlar){
+  /*kod buraya*/ const kacCesit =orijinalTatlar.length; 
+  if (kacCesit ===25) {
+    console.log("true")
+  }
+                else {console.log("false")}
+   return kacCesit;
+
 }
 
 
